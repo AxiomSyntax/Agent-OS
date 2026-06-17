@@ -1,3 +1,7 @@
-git add vercel.json
-git commit -m "Add Vercel config – set project root to custom-agent-os"
-git push
+{
+  "version": 2,
+  "name": "custom-agent-os",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "rootDirectory": "custom-agent-os"
+}
